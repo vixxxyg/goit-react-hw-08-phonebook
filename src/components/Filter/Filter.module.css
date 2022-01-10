@@ -1,0 +1,12 @@
+.input {
+  max-width: 200px;
+  background-color: rgb(252, 213, 188);
+  border-radius: 5px;
+  color: rgb(110, 105, 105);
+  font-weight: 900;
+  min-height: 25px;
+}
+
+.header {
+  margin-bottom: 0;
+}

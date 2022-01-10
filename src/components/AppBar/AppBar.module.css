@@ -1,0 +1,8 @@
+.header {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  margin-bottom: 16px;
+  background-color: rgb(231, 218, 38);
+}
