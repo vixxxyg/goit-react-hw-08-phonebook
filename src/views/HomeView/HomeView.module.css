@@ -2,13 +2,19 @@
   min-height: calc(100vh - 50px);
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
 .title {
-  font-weight: 500;
-  font-size: 58;
+  font-weight: 900;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  color: rgb(223, 87, 9);
+  color: rgb(249, 249, 252);
+}
+
+.image {
+  display: block;
+  width: 500px;
+  color: rgb(95, 22, 22);
 }

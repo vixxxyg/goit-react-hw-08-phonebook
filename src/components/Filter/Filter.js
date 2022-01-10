@@ -8,7 +8,7 @@ export default function Filter() {
   const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className={s.input_container}>
       <h4 className={s.header}>Find contacts by name</h4>
       <input
         type="text"

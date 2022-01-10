@@ -1,12 +1,23 @@
+.input_container {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 50px 0;
+  width: 500px;
+}
 .input {
   max-width: 200px;
-  background-color: rgb(252, 213, 188);
-  border-radius: 5px;
-  color: rgb(110, 105, 105);
+  background-color: rgb(81, 99, 121);
+  color: white;
   font-weight: 900;
   min-height: 25px;
+  border: 5px solid white;
+  border-radius: 25px;
 }
 
 .header {
   margin-bottom: 0;
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
 }

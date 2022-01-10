@@ -4,7 +4,7 @@ import s from './AuthNav.module.css';
 
 export default function AuthNav() {
   return (
-    <div>
+    <div className={s.container}>
       <NavLink
         to="/register"
         className={({ isActive }) => (isActive ? s.activeLink : s.link)}

@@ -1,9 +1,36 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  flex-direction: column-reverse;
 }
 
 .name {
   font-weight: 700;
   margin-right: 12;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(249, 248, 252);
 }
+
+.btn {
+  background-color: white;
+  border-color: white;
+  color: rgb(55, 65, 97);
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: auto;
+  border-radius: 15px;
+  min-width: 120px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+/* 
+.image {
+  background-color: rgb(55, 65, 97);
+  fill: rgb(55, 65, 97);
+  width: 60px;
+} */

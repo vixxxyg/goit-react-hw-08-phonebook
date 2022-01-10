@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './HomeView.module.css';
-import image from './tel.jpg';
+import image from './i.png';
 
 export default function HomeView() {
   return (
     <div className={s.container}>
-      <h1 className={s.title}>Добро пожаловать на сервис!{''}</h1>
-      <img src={image} width="500" alt="sadcat" style={{ display: 'block' }} />
+      <h1 className={s.title}>Welcome to the PHONEBOOK{''}</h1>
+      <img className={s.image} src={image} alt="phone" />
     </div>
   );
 }

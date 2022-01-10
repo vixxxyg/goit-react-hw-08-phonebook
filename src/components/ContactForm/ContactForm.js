@@ -58,7 +58,7 @@ function ContactForm() {
             className={s.inputNumber}
           />
         </label>
-        <div>
+        <div className={s.btn_container}>
           <button type="submit" className={s.button}>
             Add contact
           </button>

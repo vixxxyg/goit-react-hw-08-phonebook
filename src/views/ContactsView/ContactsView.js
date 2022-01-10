@@ -6,9 +6,9 @@ import ContactList from '../../components/ContactList/ContactList';
 function Contacts() {
   return (
     <div>
-      <h1>Phonebook</h1>
+      <h1>Add something into Phonebook</h1>
       <ContactForm />
-      <h2>Contacts</h2>
+      <h2>My contacts</h2>
       <Filter />
       <ContactList />
     </div>
